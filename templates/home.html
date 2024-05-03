@@ -1,0 +1,39 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{%static 'css/index.css'%}">
+</head>
+<body>
+    
+    <!-- navbar.html content starts here.. -->
+    <div>
+        {%include 'navbar.html '%}
+    </div>
+     <!-- navbar.html content ends  here.. -->
+
+
+
+     <!-- index page content start here.. -->
+    <div class="hero-section">
+        helloworld
+    </div>
+    <div>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptate, laborum rem deleniti sit ullam modi dolorum quo adipisci quod autem doloribus voluptates sint at. Animi labore omnis provident ab!
+    </div>
+      <!-- index page content ends here.. -->
+
+
+
+
+    <!-- 'footer.html' content starts here.. -->
+    <div>
+        {%include 'footer.html'%}
+    </div>
+    <!--  'footer.html'  content ends here.. -->
+</body>
+</html>
